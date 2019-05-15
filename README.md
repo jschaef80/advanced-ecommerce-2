@@ -24,7 +24,7 @@ https://p.w3layouts.com/demos/spareparts/web/index.html
     * look for div with className of "grid_1_of_5" (in App.js)
     * take that content and place it in the ProductDetail component
     * Send a prop called "product"
-    * Use product prop to populate the UI instead of hard coded 
+    * Use product prop to populate the UI instead of hard coded
   * SubHeader
     * look for div with className of "sub-header" (in App.js)
     * take that content and place it in the SubHeader component
