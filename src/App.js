@@ -7,6 +7,7 @@ import ProductDetail from "./components/ProductDetail";
 import SubHeader from "./components/SubHeader";
 import TopNav from "./components/TopNav";
 
+
 function App(props) {
 
 	const filtered = props.state.products.filter(product => {
@@ -17,35 +18,17 @@ function App(props) {
 		<div className="App">
 			<div className="wrap">
 				<div className="header">
-
-
 					<Header/>
-
-
 					<div className="clear"> </div>
-
-
 					<SubHeader/>
-
-
 					<div className="clear"> </div>
-
-					
 					<TopNav changeCategory={props.changeCategory}/>
-					
-
 				</div>
-				
-			
 				<ImageSlider/>
-					
-
 				<div className="content">
 					<div className="products-box">
-
 						<div className="products">
 							<h5><span>FEATURED</span> PRODUCTS</h5>
-
 							<div className="section group">
 								{
 									filtered.map((product, index) => {
@@ -60,16 +43,9 @@ function App(props) {
 						</div>
 						</div>
 					</div>
-
-
 				<div className="clear"> </div>
-
-
 				<Footer/>
-
-
 			</div>
-
 		</div>
 	);
 }
