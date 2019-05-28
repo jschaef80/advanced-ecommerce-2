@@ -42,7 +42,7 @@ https://p.w3layouts.com/demos/spareparts/web/index.html
 
 * Create a variable in index.js called currentCategory and set it to "tires" √√√
 
-* Create a function in index.js called changeCategory thats takes a parameter category. It will assign category to currentCategory and call render()
+* Create a function in index.js called changeCategory thats takes a parameter category. It will assign category to currentCategory and call render() √√√
 
 * Send the changeCategory function to App and then to the TopNav component by way of props
 

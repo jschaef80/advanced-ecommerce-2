@@ -11,7 +11,7 @@ import TopNav from "./components/TopNav";
 function App(props) {
 
 	const filtered = props.state.products.filter(product => {
-		return product.category === props.currectCategory
+		return product.category === props.currentCategory
 	});
 
 	return (
